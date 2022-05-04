@@ -11,14 +11,24 @@
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
-
 /*
  * Base structure
  */
+ #particles-js {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 0;
+ }
 
 body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  font-family: "Source Code Pro";
+  cursor: url('https://img.icons8.com/external-sbts2018-outline-color-sbts2018/58/000000/external-space-space-sbts2018-outline-color-sbts2018-2.png'),auto;
+
 }
 
 .cover-container {
